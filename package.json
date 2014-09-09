@@ -1,7 +1,7 @@
 {
 	"name": "node-json-rpc-client",
 	"version": "0.9.0",
-	"description": "JSON RPC 2.0 tcp client with persistent connections. Very fast with no dependencies.",
+	"description": "JSON RPC 2.0 TCP client implementation with persistent connections. Very fast and without dependencies.",
 	"main": "./lib/json-rpc-client.js",
 	"scripts": {
 	},

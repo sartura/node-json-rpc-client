@@ -1,5 +1,5 @@
-node-json-rpc-client
-====================
+json-rpc-client
+===============
 
 Node.js JSON-RPC 2.0 TCP implementation with persistent connections - fast and without dependencies
 
