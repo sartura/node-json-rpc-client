@@ -25,7 +25,7 @@ Node.js JSON-RPC 2.0 TCP implementation with persistent connections - fast and w
 
     var json_rpc_client = require('json_rpc_client')
 
-### send (options, callback)
+### connect (options, callback)
 
 Creates a new RPC connection to the server.
 
@@ -34,7 +34,18 @@ Options:
 * host: Host the client should connect to. Defaults to '127.0.0.1'.
 * port: Port the client should connect to. Defaults to '7070'.
 
+Callback: Invoked after the connection to the specified host is ready
+
+### send (methodName, parameters, callback)
+
+Sends json data through persisted tcp connection.
+
+methodName: string
+
+parameters: Object with parameters
+
 Callback:
+
 * error - string/object or null if no error
 * reply - object containing reply data
 
